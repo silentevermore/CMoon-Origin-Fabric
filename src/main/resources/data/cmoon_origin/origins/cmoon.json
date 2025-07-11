@@ -1,0 +1,20 @@
+{
+    "name": "C-Moon",
+    "description": "C-Moon is a sentient type of stand, capable of manipulating the gravity.",
+    "powers": [
+        "cmoon_origin:gravity_switch",
+        "cmoon_origin:inverse_punch",
+        "cmoon_origin:less_health",
+        "cmoon_origin:protective_shield",
+        "cmoon_origin:water_ignorance",
+        "origins:extra_reach",
+        "origins:fall_immunity",
+        "origins:natural_armor",
+        "origins:ender_particles"
+    ],
+    "icon": {
+        "item": "minecraft:ender_eye"
+    },
+    "order": 0,
+    "impact": 3
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Gravity Switch",
+    "description": "Flips the gravity for user in the axial direction they're looking at.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "cmoon_gravity"
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 6
+    },
+    "key": "secondary"
+}

@@ -1,0 +1,5 @@
+{
+  "effect.cmoon_origin.inversed_limbs": "Inversed Limbs",
+  "death.attack.inversed_limbs": "%1$s limbs were inversed like an origami",
+  "death.attack.inversed_limbs.player": "%1$s limbs were inversed like an origami by %2$s"
+}

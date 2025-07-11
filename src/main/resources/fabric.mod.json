@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "cmoon_origin",
+	"version": "${version}",
+	"name": "CMoon-Origin-Fabric",
+	"description": "Ever dreamt of playing as your favorite character from JJBA, C-Moon? Well, now you can, with the possibilities of Origins mod!",
+	"authors": [
+		"@silentevermore"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://https://github.com/silentevermore/CMoon-Origin-Fabric"
+	},
+	"license": "MIT",
+	"icon": "assets/cmoon_origin/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.silentevermore.cmoon_origin.CMoonOriginFabric"
+		]
+	},
+	"mixins": [
+      "cmoon_origin.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"origins-fabric": "*",
+		"GravityChanger": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

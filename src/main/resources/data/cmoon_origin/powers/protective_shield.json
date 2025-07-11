@@ -1,0 +1,17 @@
+{
+    "name": "Gravity Shield",
+    "description": "Lets you use gravity in benefit of protecting yourself for 5 seconds, with a total 5 second cooldown.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 100,
+            "amplifier": 10,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "cooldown": 15,
+    "key": "primary"
+}
