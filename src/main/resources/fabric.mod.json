@@ -8,8 +8,8 @@
 		"@silentevermore"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": "https://https://github.com/silentevermore/CMoon-Origin-Fabric"
+		"sources": "https://https://github.com/silentevermore/CMoon-Origin-Fabric",
+		"issues": "https://https://github.com/silentevermore/CMoon-Origin-Fabric/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/cmoon_origin/icon.png",
@@ -27,10 +27,9 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"origins-fabric": "*",
-		"GravityChanger": "*"
+		"gravity_changer_q": "1.1.2",
+		"origins": "1.10.0"
 	},
 	"suggests": {
-		"another-mod": "*"
 	}
 }

@@ -4,6 +4,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import gravity_changer.api.GravityChangerAPI;
+import gravity_changer.util.RotationUtil;
 import me.silentevermore.cmoon_origin.util.DirectionUtil;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -24,7 +25,7 @@ public class CMoonCommands {
     private static int setBaseGravity(CommandContext<ServerCommandSource> context) throws CommandSyntaxException{
         ServerCommandSource source=context.getSource();
         ServerPlayerEntity player=source.getPlayerOrThrow();
-        Direction dir=DirectionUtil.toDirection(player.getRotationVecClient());
+        Direction dir=DirectionUtil.toDirection(player.getRotationVector());
         GravityChangerAPI.setBaseGravityDirection(player, dir);
         return 1;
     }
