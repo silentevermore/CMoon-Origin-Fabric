@@ -18,6 +18,6 @@ public class InversedLimbs extends StatusEffect{
     }
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier){
-        if (entity.isAlive()) entity.damage(new DamageSource(ModDamageTypes.entryOf(entity.getWorld(), ModDamageTypes.INVERSED_LIMBS), entity.getPos()), 2);
+        entity.damage(new DamageSource(ModDamageTypes.entryOf(entity.getWorld(), ModDamageTypes.INVERSED_LIMBS)), 2);
     }
 }

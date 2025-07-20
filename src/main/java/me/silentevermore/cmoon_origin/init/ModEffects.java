@@ -12,6 +12,6 @@ public class ModEffects{
     public static final StatusEffect INVERSED_LIMBS=new InversedLimbs();
 
     public static void register(){
-        Registry.register(Registries.STATUS_EFFECT, Identifier.of(MOD_ID, "inversed_limbs"), INVERSED_LIMBS);
+        Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(MOD_ID, "inversed_limbs"), INVERSED_LIMBS);
     }
 }
