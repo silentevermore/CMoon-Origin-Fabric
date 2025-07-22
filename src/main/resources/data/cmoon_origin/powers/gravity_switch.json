@@ -1,6 +1,6 @@
 {
     "name": "Gravity Switch",
-    "description": "Flips the gravity for user in the axial direction they're looking at.",
+    "description": "You can change your gravity in the direction of your look.",
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:execute_command",

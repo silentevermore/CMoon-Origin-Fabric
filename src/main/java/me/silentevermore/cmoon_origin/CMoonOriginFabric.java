@@ -35,7 +35,6 @@ public class CMoonOriginFabric implements ModInitializer{
 			var originComponent = ModComponents.ORIGIN.get(player);
 			var origin=originComponent.getOrigin(OriginLayers.getLayer(Identifier.of(Origins.MODID, "origin")));
 			if (!player.getWorld().isClient() && origin!=null && origin.getIdentifier().equals(Identifier.of(MOD_ID, "cmoon"))){
-				(player).addStatusEffect(new StatusEffectInstance(ModEffects.INVERSED_LIMBS, 100, 1, false, false));
 				((LivingEntity)entity).addStatusEffect(new StatusEffectInstance(ModEffects.INVERSED_LIMBS, 100, 1, false, false));
 				return ActionResult.FAIL;
 			}

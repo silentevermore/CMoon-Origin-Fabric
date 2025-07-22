@@ -1,6 +1,6 @@
 {
     "name": "Gravity Shield",
-    "description": "Lets you use gravity in benefit of protecting yourself for 5 seconds, with a total 5 second cooldown.",
+    "description": "You can activate a gravitational shield around yourself that protects you from any damage.",
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:apply_effect",

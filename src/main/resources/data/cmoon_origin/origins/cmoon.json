@@ -1,6 +1,6 @@
 {
     "name": "C-Moon",
-    "description": "C-Moon is a sentient type of stand, capable of manipulating the gravity.",
+    "description": "C-Moon is a sentient stand, capable of manipulating the gravity.",
     "powers": [
         "cmoon_origin:gravity_switch",
         "cmoon_origin:inverse_punch",
